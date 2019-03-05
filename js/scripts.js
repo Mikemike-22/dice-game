@@ -7,13 +7,19 @@ function myFunction(){
   var cumulativeScore= initialScore+=x
   document.getElementById('score1').innerHTML=cumulativeScore;
 
-  if(x===1){
-    alert("next players turn")
-  };
-  $("#hold1").click(function(){
-
+  if(x === 1){
+    $("#b1").hide();
+    $("#b2").show();
+    alert("next player's turn");
   }
+  // $(document).ready(function(){
+  //   $(".hold").click(function(){
+  //     alert("")
+  //   }
+  // }
+
 };
+
 
 function myDigits(){
   var y= Math.floor((Math.random()*6)+1);
@@ -22,7 +28,9 @@ function myDigits(){
   var cumulativeScore= initialScore+=y
   document.getElementById('score2').innerHTML=cumulativeScore;
 
-  if (y===1){
+  if (y === 1){
+    $("#b1").show();
+    $("#b2").hide();
     alert("next players turn")
   };
 
