@@ -1,10 +1,13 @@
 .jumbotron{
   background-color: #999966;
-  colo: black;
+  color: black;
 
   font-family: fantasy;
 }
 #press{
   background-color: #333333
   font: white;
+}
+#hold1,#hold2{
+  background-color: #c2c2a3;
 }
