@@ -12,6 +12,7 @@ function myFunction(){
     $("#b2").show();
     alert("next player's turn");
   };
+  
   if (cumulativeScore >=100 ){
     alert("WINNER !!!!")
     };
