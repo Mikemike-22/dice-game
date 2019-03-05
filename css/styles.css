@@ -1,8 +1,10 @@
 .jumbotron{
-  background-color: grey;
+  background-color: #999966;
+  colo: black;
+
   font-family: fantasy;
 }
 #press{
   background-color: #333333
-  font-color: white;
+  font: white;
 }
