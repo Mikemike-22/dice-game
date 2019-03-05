@@ -11,7 +11,8 @@ function myFunction(){
     $("#b1").hide();
     $("#b2").show();
     alert("next player's turn");
-  }
+  };
+  
   // $(document).ready(function(){
   //   $(".hold").click(function(){
   //     alert("")
