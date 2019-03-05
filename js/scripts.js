@@ -15,7 +15,7 @@ function myFunction(){
   if (cumulativeScore >=100 ){
     alert("WINNER !!!!")
     };
-  
+
   // // $(document).ready(function(){
   //   $(".hold").click(function(){
   //     alert("")
@@ -37,6 +37,9 @@ function myDigits(){
     $("#b2").hide();
     alert("next players turn")
   };
+  if (cumulativeScore >=100 ){
+    alert("WINNER !!!!")
+    };
 
 
 };
