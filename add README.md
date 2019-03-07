@@ -28,4 +28,4 @@ When a player's total score is 100 or more, game is over and winner alert shows	
 Michael Kipkorir
 
 License
-This project is under MIT License. Copyright (c) 2018 nignanthomas
+This project is under MIT License. Copyright (c) 2018 Michael Kipkorir
